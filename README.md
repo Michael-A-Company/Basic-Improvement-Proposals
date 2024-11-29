@@ -1,6 +1,6 @@
 Brown Improvement Proposals (BIPs)
 
-The Proposals folder contains Brown Improvement Proposals (BIPs), which are the primary mechanisms for suggesting new features, gathering technical input, and documenting design decisions within the Brown Improvement Foundation. Each BIP presents a specific process, method, or idea, offering a clear rationale and concise specifications. BIPs track the evolution of technological innovations within the region and serve as a historical record of design decisions.
+The primary mechanisms for suggesting new features, gathering technical input, and documenting design decisions within Brown Improvement. Each BIP presents a specific process, method, or idea, offering a clear rationale and concise specifications. BIPs track the evolution of technological innovations within the region and serve as a historical record of design decisions.
 
 What is a BIP?
 
