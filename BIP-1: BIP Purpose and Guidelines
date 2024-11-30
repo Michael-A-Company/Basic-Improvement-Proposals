@@ -1,24 +1,47 @@
 Author Michael A. <a@bips.ma8.company>
-BIP stands for Brown Improvement Proposal. A BIP is a document providing information describing a new process or method. The BIP should provide a concise specification and a rationale. Authors are responsible for building consensus within the community and documenting dissenting theorems.
+
+BIP stands for Brown Improvement Proposal. A BIP is a document providing information describing a new process or method. The BIP should provide a concise specification and a rationale. Editors are responsible for building consensus within the community and documenting dissenting theorems.
+
 BIP Rationale
-BIPs are to be the primary mechanisms for proposing new features, for collecting  technical input on an issue, and for documenting the design decisions that have gone into the application. 
+
+BIPs are to be the primary mechanisms for proposing new features, for collecting  technical input on an issue, and for documenting the design decisions that have gone into the application. 
+
 Because the BIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
-For Authors, BIPs are a convenient way to track the progress of their proposed implementation. Ideally each implementation maintainer would list the BIPs that they have implemented. This will give each author a convenient way to know the current status of a given implementation or library.
+
+For Editors, BIPs are a convenient way to track the progress of their proposed implementation. Ideally each implementation maintainer would list the BIPs that they have implemented. This will give each editor a convenient way to know the current status of a given implementation or library.
+
 BIP Types
+
 There are three types of BIPs:
-A Standards Track BIP describes any change that affects most or all authors implementations, such as—a change to the application, a change in rules, proposed standards/conventions, or any change or addition that affects the interoperability of hosts using the field. Standards Track BIPs consist of three parts—a design document, an implementation, and (if warranted) an update to the formal specification. Furthermore, Standards Track BIPs can be broken down into the following categories:
-Core: improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core” discussions.
+
+A Standards Track BIP describes any change that affects most or all editors implementations, such as—a change to the application, a change in rules, proposed standards/conventions, or any change or addition that affects the interoperability of hosts using the field. Standards Track BIPs consist of three parts—a design document, an implementation, and (if warranted) an update to the formal specification. Furthermore, Standards Track BIPs can be broken down into the following categories:
+
+Core: improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core” discussions.
+
 Networking: includes improvements around (BIP-8) and Light Framework as well as proposed improvements to network app specifications.
+
 Interface: includes improvements around language-level standards like dharma numbers.
-A Meta BIP describes a process surrounding the field or proposes a change to (or an event in) a process. Process BIPs are like Standards Track BIPs but apply to areas other than the app itself. They may propose an implementation, but not to codebase; they often require community consensus; unlike Informational BIPs, they are more than recommendations, and Hosts are typically not free to ignore them.
-An Informational BIP describes a field design issue, or provides general guidelines or information to the community, but does not propose a new feature. Informational BIPs do not necessarily represent consensus or a recommendation, so Authors are free to ignore Informational BIPs or follow their advice.
+
+A Meta BIP describes a process surrounding the field or proposes a change to (or an event in) a process. Process BIPs are like Standards Track BIPs but apply to areas other than the app itself. They may propose an implementation, but not to codebase; they often require community consensus; unlike Informational BIPs, they are more than recommendations, and Hosts are typically not free to ignore them.
+
+An Informational BIP describes a field design issue, or provides general guidelines or information to the community, but does not propose a new feature. Informational BIPs do not necessarily represent consensus or a recommendation, so Editors are free to ignore Informational BIPs or follow their advice.
+
 It is highly recommended that a single BIP contain a single key proposal or new idea. The more focused the BIP, the more successful it tends to be. A change to one application doesn’t require a BIP; a change that affects multiple applications, or defines a standard for multiple implementations, does.
+
 A BIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the field unduly.
+
 History
+
 This document was derived heavily from EIP-1: EIP Purpose and Guidelines written by Martin Becze and Hudson Jameson which in turn was derived from Bitcoin’s BIP-0001. In many places text was simply copied and modified. Please direct all questions to the author.
- Copyright
+
+ Copyright
+
 Copyright and related rights waived via CC0.
+
 Citation
+
 Please cite this document as:
-Michael A. <a@bips.ma8.company>, “BIP-1: BIP Purpose and Guidelines,” Brown Improvement Proposals, no. 1, December 2023. [Online serial].
+
+Michael A. <a@bips.ma8.company>, "BIP-1: BIP Purpose and Guidelines," Brown Improvement Proposals, no. 1, December 2023. [Online serial]. 
+
 Available: https://bips.ma8.company/BIPS/BIP-1.
