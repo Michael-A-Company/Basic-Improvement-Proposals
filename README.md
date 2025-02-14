@@ -1,10 +1,10 @@
-Brown Improvement Proposals (BIPs)
+Basic Improvement Proposals (BIPs)
 
-The primary mechanisms for suggesting new features, gathering technical input, and documenting design decisions within Brown Improvement. Each BIP presents a specific process, method, or idea, offering a clear rationale and concise specifications. BIPs track the evolution of technological innovations within the region and serve as a historical record of design decisions.
+The primary mechanisms for suggesting new features, gathering technical input, and documenting design decisions for TEDDi. Each BIP presents a specific process, method, or idea, offering a clear rationale and concise specifications. BIPs track the evolution of TEDDi and serve as a historical record of design/development decisions.
 
 What is a BIP?
 
-A BIP (Brown Improvement Proposal) is a document that introduces a new process, method, or idea aimed at enhancing the technological ecosystem within the Brown Improvement Foundation. Each proposal includes a clear specification and rationale, with the author responsible for building consensus within the community and addressing any dissenting viewpoints.
+A BIP (Basic Improvement Proposal) is a document that introduces a new process, method, or idea aimed at enhancing TEDDi. Each proposal includes a clear specification and rationale, with the author responsible for building consensus within the community and addressing any dissenting viewpoints.
 
 BIPs provide a transparent and organized means of proposing changes that impact the broader community, ensuring that the collective’s governance and technical decisions are well-documented and accessible.
 
@@ -16,7 +16,7 @@ Submitting a Proposal
 
 To submit a BIP, follow these steps:
 
-Fork the Repository: Fork the Brown Improvement Foundation repository to your GitHub account.
+Fork the Repository: Fork the Basic Improvement Foundation repository to your GitHub account.
 Create a New BIP File: Within the proposals/ folder, create a new markdown file (e.g., BIP-<number>.md) and follow the BIP template for formatting your proposal.
 Write Your Proposal: Clearly describe the proposed process, method, or feature, including the rationale and expected impact.
 Submit a Pull Request: When your proposal is ready, submit a pull request to the proposals/ folder, with a description of the changes.
@@ -24,7 +24,7 @@ Make sure to adhere to the BIP format and guidelines. Engage with the community 
 
 Current Proposals
 
-Here are the current proposals within the Brown Improvement Foundation:
+Here are the current proposals within the Basic Improvement Foundation:
 
 BIP-1: Purpose and Guidelines – Describes the purpose and process for submitting BIPs.
 BIP-2: BIP Editor Handbook – A comprehensive guide for BIP Editors, detailing the responsibilities, processes, and best practices for managing and reviewing Brown Improvement Proposals (BIPs). This handbook ensures consistency and clarity in the editorial oversight of proposals, from submission to final approval.
