@@ -1,6 +1,6 @@
 Basic Improvement Proposals (BIPs)
 
-The primary mechanisms for suggesting new features, gathering technical input, and documenting design decisions for TEDDi. Each BIP presents a specific process, method, or idea, offering a clear rationale and concise specifications. BIPs track the evolution of TEDDi and serve as a historical record of design/development decisions.
+The primary mechanisms for suggesting new functionality, gathering technical input, and documenting design/development decisions for TEDDi. Each BIP presents a specific process, method, or idea, offering a clear rationale and concise specifications. BIPs track the evolution of TEDDi and serve as a historical record of design/development decisions.
 
 What is a BIP?
 
