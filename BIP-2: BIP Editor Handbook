@@ -1,57 +1,23 @@
-We, the Brown Improvement Proposal (BIP) Editors, maintain a repository of documents related to the “Web.” Consider us both archivists making sure the community as a whole does not lose its history, and a publisher making sure interested parties can stay up-to-date with the latest proposals.
-Mission
-Proposals
-Making proposals, including their history and associated discussions available over the long term at no cost. By doing so, we foster transparency and ensure that valuable insights from past proposals are accessible for future decision-making and learning.
-Discussion
-Providing a forum for discussing proposals open to anyone who wants to participate civilly. By encouraging open dialogue and collaboration, we aim to harness the collective knowledge and expertise of Implementors in shaping the application.
-Quality
-Upholding a measure of minimally-subjective quality for the application. By adhering to defined criteria, we promote the development of high-quality and relevant posts and proposals that drive the “application.”
-What We Don’t
-On the other hand, we do not:
-Decide Winners: If there are multiple competing proposals, we will publish all of them. We are not in the business of deciding what is the right path for the “Web”, nor do we believe that there is One True Way.
-Assert Correctness: While we might offer technical feedback from time to time, we are not experts nor do we vet every proposal in depth. Publishing a proposal is not an endorsement or a statement of technical soundness.
-Manage: We do not track implementation status, schedule work, or set fork dates or contents.
-Track Registries: We want all proposals to eventually become immutable, but a registry will never get there if anyone can keep adding items. To be clear, exhaustive and/or static lists are fine.
-Provide Legal Advice: Trademarks, copyrights, patents, prior art, and other legal matters are the responsibility of authors (implementers), not BIP Editors. We are not lawyers, and while we may occasionally make comments touching on these areas, we cannot guarantee any measure of correctness.
-Documenting all of the things we would not do is impossible, and the above are just a few examples. We reserve the right to do less work.
-Structure
-BIP Editors
-We, the Editors, consist of some number of BIP Editors and one Keeper of Consensus elected by and from the BIP Editors.
-BIP Editors are responsible for governing the BIP process itself, electing a Keeper, and stewarding proposals.
-The Keeper’s two responsibilities (on top of their BIP Editor duties) are: to determine when rough consensus has been reached on a matter, and determine when/if it is appropriate to re-open an already settled matter.
-Membership
-Anyone may apply to join as an BIP Editor. Specific eligibility requirements are left to individual current BIP Editors, but the general requirements are:
-A strong belief in the above mission;
-Proficiency with English (both written and spoken);
-Reading and critiquing BIPs;
-Participation in governance.
-BIP Editors are expected to meet these requirements throughout their tenure, and not doing so is grounds for removal. Any member may delegate some or all of their responsibilities/powers to tools and/or to other people.
-Decisions
-Informally
-For decisions that are unlikely to be controversial—especially for decisions affecting a single proposal—a BIP Editor may choose whatever option they deem appropriate in accordance with our mission.
-Formally
-Electing a Keeper, adding/removing BIP Editors, and any possibly-controversial decisions must all be made using variations of this formal process.
-Preparation
-Call for Input
-For any matter requiring a decision, a call for input must be published in writing to the usual channels frequented by BIP Editors.
-Quorum
-Within thirty days of the call for input, to establish a valid quorum, all BIP Editors must express their opinion, vote (where appropriate), or lack thereof on the matter under consideration.
-After thirty days from the call for input, if not all BIP Editors have responded, the quorum is reduced to the Editors that have responded. This deadline may be extended in exceptional situations.
-Deciding
-ELECTING A KEEPER OF CONSENSUS
-Any BIP Editor can call for an election for Keeper. Business continues as usual while the election is running. The BIP Editor with the most votes once quorum is met is named Keeper until the next election completes. If there is a tie, we’ll randomly choose between the BIP Editors with the most votes, using a fair and agreed upon method (for example, a coin toss over a video call or a commit/reveal game of rock paper scissors.)
-ADDING A BIP EDITOR
-A BIP Editor is added once quorum is met, provided the candidate consents and no current BIP Editor objects.
-REMOVING A BIP EDITOR
-A BIP Editor is involuntarily retired once quorum is met, provided no current BIP Editor (aside from the one being removed) objects. A BIP Editor may voluntarily leave their position at any time.
-If the departing Editor was also the Keeper, an election for a new Keeper begins immediately.
-OTHER DECISIONS
-All other decisions are made through a “rough consensus” process. This does not require all BIP Editors to agree, although this is preferred. In general, the dominant view of the Editors shall prevail. Dominance, in this process, is not determined by persistence or volume but rather a more general sense of agreement. Note that 51% does not mean “rough consensus” has been reached, and 99% is better than rough. It is up to the Keeper to determine if rough consensus has been reached. Every BIP Editor is entitled to have their opinion heard and understood before the Keeper makes that determination.
-No one, not the BIP Editors and certainly not the Keeper, holds veto powers (except when adding/removing an Editor as defined above.) It is imperative that the BIP process evolve, albeit cautiously.
-This section has been adapted from RFC 2418.
-Copyright
+BIP stands for Basic Improvement Proposal. A BIP is a document providing information describing a new process or method. The BIP should provide a concise specification and a rationale. Editors are responsible for building consensus within the community and documenting dissenting theorems.
+BIP Rationale
+BIPs are to be the primary mechanisms for proposing new features, for collecting  technical input on an issue, and for documenting the design decisions that have gone into the application. 
+Because the BIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
+For Editors, BIPs are a convenient way to track the progress of their proposed implementation. Ideally each implementation maintainer would list the BIPs that they have implemented. This will give each editor a convenient way to know the current status of a given implementation or library.
+BIP Types
+There are three types of BIPs:
+A Standards Track BIP describes any change that affects most or all editors implementations, such as—a change to the application, a change in rules, proposed standards/conventions, or any change or addition that affects the interoperability of hosts using the field. Standards Track BIPs consist of three parts—a design document, an implementation, and (if warranted) an update to the formal specification. Furthermore, Standards Track BIPs can be broken down into the following categories:
+Core: improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core” discussions.
+Networking: includes improvements around (BIP-8) and Light Framework as well as proposed improvements to network app specifications.
+Interface: includes improvements around language-level standards like dharma numbers.
+A Meta BIP describes a process surrounding the field or proposes a change to (or an event in) a process. Process BIPs are like Standards Track BIPs but apply to areas other than the app itself. They may propose an implementation, but not to codebase; they often require community consensus; unlike Informational BIPs, they are more than recommendations, and Hosts are typically not free to ignore them.
+An Informational BIP describes a field design issue, or provides general guidelines or information to the community, but does not propose a new feature. Informational BIPs do not necessarily represent consensus or a recommendation, so Editors are free to ignore Informational BIPs or follow their advice.
+It is highly recommended that a single BIP contain a single key proposal or new idea. The more focused the BIP, the more successful it tends to be. A change to one application doesn’t require a BIP; a change that affects multiple applications, or defines a standard for multiple implementations, does.
+A BIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the field unduly.
+History
+This document was derived heavily from EIP-1: EIP Purpose and Guidelines written by Martin Becze and Hudson Jameson which in turn was derived from Bitcoin’s BIP-0001. In many places text was simply copied and modified. Please direct all questions to the author.
+ Copyright
 Copyright and related rights waived via CC0.
 Citation
 Please cite this document as:
-Michael A. <a@bips.ma8.company>, “BIP-2: BIP Editor Handbook,” Michael A. Improvement Proposals, no. 2, December 2023. [Online serial].
-Available: https://bips.ma8.company/BIPS/BIP-2
+Michael A. <a@bips.ma8.company>, “BIP-1: BIP Purpose and Guidelines,” Basic Improvement Proposals, no. 1, December 2023. [Online serial].
+Available: https://bips.ma8.company/BIPS/BIP-1.
