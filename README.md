@@ -16,7 +16,7 @@ Submitting a Proposal
 
 To submit a BIP, follow these steps:
 
-Fork the Repository: Fork the Basic Improvement Foundation repository to your GitHub account.
+Fork the Repository: Fork the Basic Improvement repository to your GitHub account.
 Create a New BIP File: Within the proposals/ folder, create a new markdown file (e.g., BIP-<number>.md) and follow the BIP template for formatting your proposal.
 Write Your Proposal: Clearly describe the proposed process, method, or feature, including the rationale and expected impact.
 Submit a Pull Request: When your proposal is ready, submit a pull request to the proposals/ folder, with a description of the changes.
